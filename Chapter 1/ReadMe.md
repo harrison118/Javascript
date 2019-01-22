@@ -25,3 +25,11 @@ at this point rather than on each use.**
 
 * Suited to Object Orietnated and Functional Programming Styles
 
+Javascript takes and insprires its syntax from Java, its first class function from scheme and its prototype based inheritence from self.
+
+For everylanguage to be useful it must have a platform, or a standard library or API of Functions for performing things like basic input and output.
+
+The core javascript defines a minimal API for working with text, arrays, dates and regular expressions but does not include any input or output functionality.
+
+The Input and output, aswell as other sophisticated features such as networking, storage and graphics is the responsibility of the host enviroment within the javascript is embedded. 
+This host enviroment is usually the web browser.
