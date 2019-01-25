@@ -1,4 +1,7 @@
 // Javascript is dynamic as it has data types, but they are not bound to variable
+// Javascript has six primiative datatypes, this is because their value only accepts a single thing ie number, string, boolean etc
+// An object is able to hold different data types to suit that task in hand.
+
 //Variable is a symbolic name for a value 
 //Varibales are defined with the use of the VAR keyword
 var x;      //This Declared a variable named x
@@ -144,4 +147,5 @@ count --; // Decrement the value by 1, count is now 0 again. Or -1 if we didnt d
 count += 2; // This assigns the value of count + 2, to the variable count
 count -= 2; //This assigns the value of count - 2, to the variable count
 count *= 2; //This assigns the value of count x 2 (count multiplied by 2), to the variable count
+
 
