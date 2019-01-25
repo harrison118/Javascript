@@ -1,0 +1,2 @@
+/* This covers the final points made in reference to the ability to have an object with its own functions ie methods and the ways 
+in which they can be used and manipulated.*/
