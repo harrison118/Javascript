@@ -148,4 +148,42 @@ count += 2; // This assigns the value of count + 2, to the variable count
 count -= 2; //This assigns the value of count - 2, to the variable count
 count *= 2; //This assigns the value of count x 2 (count multiplied by 2), to the variable count
 
+/*
+Within Javascript there is an overlap between what is classified as a statement and what is an expression. 
+    An Expression is something which will compute a value but will not alter the program state in any way. This means that when 
+    it is being processed at that point it does not change the execution of program, but may have a later affect through a statement.
 
+
+    
+    A statement will alter the state of the program, but will not produce a value we are intrested in as such. 
+    so statements are variable declerations and assignments. Another broad category of a statement is control structures such as loops and conditionals. 
+    These below are examples of statements;
+    These are all javascript statements:
+    
+    if (conditional)
+    if-else (conditional)
+    while (Loop)
+    do-while (Loop)
+    for (Loop)
+    switch (conditional)
+    for-in (Loop)
+    with (deprecated)
+    debugger
+    variable declaration
+    
+    Function Decleration
+    
+    if () {
+        function foo () {} // top level of block, declaration. This function will only exist within the if statement provided. This means outside of this 
+                           // if statement or within an else/elsif this function will not be usable.
+    }
+
+    function foo () {}     //global level, declaration, This function will exist in the entirity of the javascript program. It can be used at any point.
+
+    function foo () {
+        function bar() {} //top level of block, declaration, This function will only exists within the function above named foo, and will not be callable 
+                          //by the above stated anywhere else.
+    }
+
+
+    */

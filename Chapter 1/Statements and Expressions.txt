@@ -1,0 +1,2 @@
+/* Statements and Expressions. These two sit very close to one another. And Statements are a key but complex component of functional programming. This being the 
+notion that the developer designs and uses the functions. Rather than in a 
